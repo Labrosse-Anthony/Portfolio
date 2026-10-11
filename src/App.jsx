@@ -3,7 +3,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import ScrollToHash from './components/ScrollToHash';
-import Home from './Pages/Home';
+import Home from './pages/Home';
 import ProjectPage from './pages/ProjectPage';
 import "./styles/variables.css";
 import './styles/index.css';
