@@ -7,6 +7,7 @@
     "tags": ["HTML", "CSS", "JavaScript"],
     "image": "./img/img-print-it.webp",
     "link": "https://github.com/Labrosse-Anthony/Projet_5-Print_it",
+    "siteUrl": "https://labrosse-anthony.github.io/Projet_5-Print_it/",
     "type": "Projet de formation",
     "intro": "Print It est une entreprise de services d’impression en ligne. Le projet consistait à ajouter, sur le prototype de son site, un carrousel de bannières interactif avec défilement dynamique des images.",
     "objectives": [
@@ -27,6 +28,7 @@
     "tags": ["HTML5", "CSS3", "Sass"],
     "image": "./img/img-ohmyfood.webp",
     "link": "https://github.com/Labrosse-Anthony/Projet_4-Oh_My_Food",
+    "siteUrl": "https://labrosse-anthony.github.io/Projet_4-Oh_My_Food/",
     "type": "Projet de formation",
     "intro": "OhMyFood est une startup qui ambitionne de devenir un acteur majeur du secteur de la gastronomie. Le site permet de consulter les menus de restaurants gastronomiques, de réserver une table en ligne et de sélectionner ses plats à l’avance.",
     "objectives": [
@@ -48,6 +50,7 @@
     "tags": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery"],
     "image": "./img/img-nina-carducci.webp",
     "link": "https://github.com/Labrosse-Anthony/Projet_8-Nina_Carducci",
+    "siteUrl": "https://labrosse-anthony.github.io/Projet_8-Nina_Carducci/",
     "type": "Projet de formation",
     "intro": "Portfolio en ligne de Nina Carducci, photographe basée à Bordeaux. Le projet consistait à améliorer un site existant pour présenter ses travaux avec une accessibilité, des performances et un référencement soignés.",
     "objectives": [
