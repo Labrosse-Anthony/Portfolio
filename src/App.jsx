@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -8,11 +8,28 @@ import ProjectPage from './pages/ProjectPage';
 import "./styles/variables.css";
 import './styles/index.css';
 
-function App() {
-  // 'dark' pour définir le thème par défaut
-  const [theme, setTheme] = useState('dark');
+const THEME_KEY = 'theme';
 
-  // Fonction pour basculer d'un thème à l'autre
+const getInitialTheme = () => {
+  try {
+    const saved = localStorage.getItem(THEME_KEY);
+    return saved === 'light' || saved === 'dark' ? saved : 'dark';
+  } catch {
+    return 'dark';
+  }
+};
+
+function App() {
+  const [theme, setTheme] = useState(getInitialTheme);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(THEME_KEY, theme);
+    } catch {
+      // stockage indisponible : le thème fonctionne quand même pour la session
+    }
+  }, [theme]);
+
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
   };
