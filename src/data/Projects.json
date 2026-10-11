@@ -3,52 +3,53 @@
     "id": 1,
     "slug": "print-it",
     "title": "Print It !",
-    "summary": "Prototype d’un site e-commerce d’impression, avec un carrousel de bannières interactif et un défilement dynamique des images.",
+    "summary": "Prototype d’un site d’impression en ligne, avec un carrousel de bannières interactif : flèches, points de navigation et textes d’accroche dynamiques.",
     "tags": ["HTML", "CSS", "JavaScript"],
     "image": "./img/img-print-it.webp",
     "link": "https://github.com/Labrosse-Anthony/Projet_5-Print_it",
     "type": "Projet de formation",
-    "intro": "Prototype d’un site e-commerce d’impression, avec catalogue de produits et commande en ligne. Le travail portait sur l’ajout d’un carrousel de bannières interactif et d’un défilement dynamique des images.",
+    "intro": "Print It est une entreprise de services d’impression en ligne. Le projet consistait à ajouter, sur le prototype de son site, un carrousel de bannières interactif avec défilement dynamique des images.",
     "objectives": [
       { "title": "Carrousel de bannières", "text": "Ajouter un carrousel de bannières interactives." },
       { "title": "Défilement dynamique", "text": "Permettre le défilement dynamique des images." }
     ],
     "achievements": [
-      { "title": "Un carrousel de bannières interactif", "text": "Ajout d’un carrousel de bannières interactives sur le prototype du site." },
-      { "title": "Un défilement dynamique d’images", "text": "Mise en place du défilement dynamique des images, en HTML, CSS et JavaScript." }
+      { "title": "Un carrousel de 4 bannières", "text": "Navigation avec les flèches gauche et droite, défilement en boucle." },
+      { "title": "Des points de navigation", "text": "Points générés en JavaScript : un clic affiche directement la bannière correspondante." },
+      { "title": "Un contenu dynamique", "text": "L’image et le texte d’accroche de chaque bannière sont mis à jour à partir d’un tableau de données." }
     ]
   },
   {
     "id": 2,
     "slug": "ohmyfood",
     "title": "OhMyFood",
-    "summary": "Réservation de menus en ligne pour restaurants gastronomiques : consulter les menus, réserver une table et choisir ses plats à l’avance, avec des animations CSS.",
+    "summary": "Site de réservation de menus pour restaurants gastronomiques : 4 restaurants, choix des plats à l’avance et animations CSS réalisées avec Sass.",
     "tags": ["HTML5", "CSS3", "Sass"],
     "image": "./img/img-ohmyfood.webp",
     "link": "https://github.com/Labrosse-Anthony/Projet_4-Oh_My_Food",
     "type": "Projet de formation",
-    "intro": "OhMyFood est une startup qui ambitionne de devenir un acteur majeur du secteur de la gastronomie. Le site permet de consulter les menus de restaurants gastronomiques, de réserver une table et de choisir ses plats à l’avance.",
+    "intro": "OhMyFood est une startup qui ambitionne de devenir un acteur majeur du secteur de la gastronomie. Le site permet de consulter les menus de restaurants gastronomiques, de réserver une table en ligne et de sélectionner ses plats à l’avance.",
     "objectives": [
       { "title": "Consulter les menus", "text": "Consulter les menus de restaurants gastronomiques." },
       { "title": "Réserver en ligne", "text": "Réserver une table en ligne." },
       { "title": "Gagner du temps", "text": "Sélectionner ses plats à l’avance afin de réduire le temps d’attente sur place." }
     ],
     "achievements": [
-      { "title": "Un site de réservation de menus", "text": "Consultation des menus, réservation d’une table et choix des plats à l’avance." },
-      { "title": "Des animations CSS", "text": "Des animations réalisées en CSS pour rendre la navigation plus vivante." },
-      { "title": "Une feuille de style en Sass", "text": "Projet réalisé en HTML5 et CSS3, avec le framework front-end Sass." }
+      { "title": "Une page d’accueil et 4 pages restaurant", "text": "Chaque restaurant a sa propre page avec son menu." },
+      { "title": "Des animations CSS", "text": "Chargement, apparition du menu, boutons, icônes, sélection des plats et bouton « j’aime » animés." },
+      { "title": "Une feuille de style organisée en Sass", "text": "Variables, fichiers séparés par page et par animation, pour un code plus lisible et réutilisable." }
     ]
   },
   {
     "id": 3,
     "slug": "nina-carducci",
     "title": "Nina Carducci",
-    "summary": "Portfolio d’une photographe, avec galerie interactive par catégories. Travail sur l’accessibilité, les performances et le référencement naturel.",
+    "summary": "Portfolio d’une photographe bordelaise, avec galerie interactive par catégories. Travail sur l’accessibilité, les performances et le référencement naturel.",
     "tags": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery"],
     "image": "./img/img-nina-carducci.webp",
     "link": "https://github.com/Labrosse-Anthony/Projet_8-Nina_Carducci",
     "type": "Projet de formation",
-    "intro": "Portfolio en ligne de Nina Carducci, photographe basée à Bordeaux. L’objectif : présenter ses travaux avec une accessibilité, des performances et un référencement soignés.",
+    "intro": "Portfolio en ligne de Nina Carducci, photographe basée à Bordeaux. Le projet consistait à améliorer un site existant pour présenter ses travaux avec une accessibilité, des performances et un référencement soignés.",
     "objectives": [
       { "title": "Accessibilité", "text": "Une accessibilité exemplaire pour tous les utilisateurs." },
       { "title": "Performances", "text": "Des temps de chargement optimisés." },
@@ -65,10 +66,23 @@
     "id": 4,
     "slug": "kasa",
     "title": "Kasa",
-    "summary": "Site de location de logements entre particuliers.",
-    "tags": [],
+    "summary": "Refonte d’un site de location de logements entre particuliers avec React : galerie de logements, carrousel de photos, accordéons et navigation avec React Router.",
+    "tags": ["React", "React Router", "Sass", "JavaScript"],
     "image": "./img/img-kasa.webp",
+    "link": "https://github.com/Labrosse-Anthony/Projet_7-Kasa",
+    "siteUrl": "https://labrosse-anthony.github.io/Projet_7-Kasa/",
     "type": "Projet de formation",
-    "intro": "Site de location de logements entre particuliers."
+    "intro": "Kasa est l’un des leaders de la location d’appartements entre particuliers en France. Le projet consistait à réaliser la refonte complète du site avec une architecture moderne : une application React, une navigation fluide avec React Router et des interfaces dynamiques et responsives.",
+    "objectives": [
+      { "title": "Application React", "text": "Créer une application web complète, construite à partir de composants réutilisables." },
+      { "title": "Navigation fluide", "text": "Gérer la navigation entre les pages avec React Router." },
+      { "title": "Interfaces dynamiques", "text": "Développer des interfaces responsives : carrousels et accordéons." }
+    ],
+    "achievements": [
+      { "title": "Des composants réutilisables", "text": "Bannière, cartes de logements, galerie, carrousel de photos et accordéons, réutilisés d’une page à l’autre." },
+      { "title": "Quatre pages avec routage", "text": "Accueil, À propos, fiche détaillée d’un logement et page d’erreur." },
+      { "title": "Des données en JSON", "text": "Les logements et le contenu de la page À propos sont chargés depuis des fichiers JSON, sans back-end." },
+      { "title": "Des styles en Sass", "text": "Une feuille de style Sass par composant, avec un rendu responsive." }
+    ]
   }
 ]
