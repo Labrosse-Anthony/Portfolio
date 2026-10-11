@@ -2,7 +2,7 @@
 
 🔗 **Site en ligne : [portfolio-anthony-labrosse.vercel.app](https://portfolio-anthony-labrosse.vercel.app/)**
 
-![Aperçu du portfolio](./public/img/img-readme.png)
+![Aperçu du portfolio](./public/img/img-readme.webp)
 
 Portfolio professionnel réalisé dans le cadre du projet 12 de la formation Intégrateur Web d'OpenClassrooms. Il présente mon parcours, mes compétences et mes réalisations.
 
