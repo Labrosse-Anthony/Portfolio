@@ -1,5 +1,5 @@
 .skills {
-  padding-block: clamp(2rem, 5vw, 4rem) clamp(3rem, 7vw, 6rem);
+  padding-block: clamp(2rem, 5vw, 4rem) clamp(1rem, 2.5vw, 2rem);
 }
 
 .skills__inner {
@@ -17,27 +17,35 @@
 
 .skills__list {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 0.75rem;
 }
 
 .skill-chip {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
-  padding: 0.55rem 1rem;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem 1.2rem;
   background-color: var(--surface-2);
   border: 1px solid var(--line);
-  border-radius: var(--radius-pill);
+  border-radius: 1.25rem;
   color: var(--text-primary);
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 500;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.skill-chip:hover {
+  border-color: var(--accent-text);
+  transform: translateY(-2px);
 }
 
 .skill-chip__icon {
-  width: 24px;
-  height: 24px;
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
   object-fit: contain;
 }
 
@@ -52,5 +60,15 @@
 
   .skills__list {
     gap: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skill-chip {
+    transition: none;
+  }
+
+  .skill-chip:hover {
+    transform: none;
   }
 }
