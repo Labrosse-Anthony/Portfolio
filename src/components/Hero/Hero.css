@@ -74,7 +74,7 @@
 }
 
 .hero__photo-frame {
-  flex: 0 1 350px;
+  flex: 0 1 300px;
   width: 100%;
   max-width: 350px;
   margin-inline: auto;
