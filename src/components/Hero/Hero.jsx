@@ -39,10 +39,6 @@ const Hero = () => {
               Voir mes projets
               <svg {...iconProps}><path d="M12 5v14M19 12l-7 7-7-7" /></svg>
             </a>
-            <a className="btn btn--outline" href={asset('cv-anthony-labrosse.pdf')} download>
-              Télécharger mon CV
-              <svg {...iconProps}><path d="M12 3v12M7 10l5 5 5-5M5 21h14" /></svg>
-            </a>
           </div>
 
           <ul className="hero__socials">
