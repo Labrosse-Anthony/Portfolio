@@ -1,39 +1,40 @@
 # Portfolio d'Anthony Labrosse - Intégrateur Web
 
-![Aperçu du Portfolio](./public/img/img-readme.webp) 
+🔗 **Site en ligne : [portfolio-anthony-labrosse.vercel.app](https://portfolio-anthony-labrosse.vercel.app/)**
 
+![Aperçu du portfolio](./public/img/img-readme.png)
 
-* Ce travail a été réalisé dans le cadre du projet 12 de la formation Intégrateur Web d'OpenClassrooms.
-* Ce projet est mon portfolio professionnel en ligne, conçu pour présenter mon parcours, mes compétences et mes réalisations.
+Portfolio professionnel réalisé dans le cadre du projet 12 de la formation Intégrateur Web d'OpenClassrooms. Il présente mon parcours, mes compétences et mes réalisations.
 
-**Contexte et objectifs :**
-* L'objectif de ce projet était de créer une vitrine professionnelle complète en utilisant une architecture moderne.
-* Le site devait répondre aux exigences suivantes :
-  * Création d'une Single Page Application (SPA) performante avec React.
-  * Développement d'une interface dynamique, accessible et 100% responsive (approche Mobile First).
+## Fonctionnalités
 
-**Fonctionnalités :**
-* **Thème dynamique (Dark/Light mode) :** Changement de thème géré globalement via React et des variables CSS personnalisées.
-* **Carrousel infini sur mesure :** Un slider de projets fonctionnant en boucle infinie grâce à une logique mathématique de clonage des éléments et d'écoute des transitions CSS.
-* **Modales dynamiques :** Affichage détaillé des projets via des modales gérant proprement le dépassement de texte (overflow) sur mobile et desktop.
-* **Données centralisées :** L'ensemble des projets est généré dynamiquement à partir d'un fichier de données JSON.
+- **Thème clair / sombre** géré avec React et des variables CSS.
+- **Design responsive** (mobile first), avec menu adapté aux petits écrans.
+- **Une page détail par projet** (`/projets/:slug`) sous forme d'étude de cas, grâce à React Router.
+- **Données centralisées** : les projets sont générés à partir d'un fichier JSON (`src/data/Projects.json`).
+- **Accessibilité** : lien d'évitement, navigation au clavier, focus visible, contrastes conformes WCAG AA.
+- **SEO** : balises meta et Open Graph, données structurées, `robots.txt` et `sitemap.xml`.
 
----
+## Technologies
 
-### Installation
+- React 19, React Router 7
+- Vite
+- CSS natif (sans framework), variables CSS
+- Déploiement sur Vercel
 
-Pour lancer le projet localement (géré avec Vite) :
+## Lancer le projet en local
 
-1. Cloner le dépôt GitHub.
+1. Cloner le dépôt : `git clone https://github.com/Labrosse-Anthony/Projet_12-Portfolio.git`
 2. Installer les dépendances : `npm install`
-3. Lancer l'environnement de développement : `npm run dev`
-4. L'application est alors accessible à l'adresse indiquée dans le terminal (généralement : `http://localhost:5173`)
+3. Lancer le serveur de développement : `npm run dev`
+4. Ouvrir l'adresse indiquée dans le terminal (généralement `http://localhost:5173`)
 
----
+Autres commandes : `npm run build` (version de production), `npm run lint` (vérification du code).
 
-### Outils et langages pour la réalisation du projet
+## Structure
 
-* Le projet a été réalisé en **HTML5, CSS3, JavaScript** et **React**.
-* L'environnement de développement et le build sont gérés par **Vite**.
-* Le style est entièrement réalisé en CSS natif (sans framework) avec une utilisation avancée des **variables CSS** pour la gestion des thèmes.
-* L'application est développée sans back-end, en utilisant un fichier **JSON** pour stocker les données des projets.
+- `src/components/` : composants (Header, Hero, Skills, Projects, About, Contact, Footer)
+- `src/pages/` : pages (accueil et détail d'un projet)
+- `src/data/Projects.json` : données des projets
+- `src/styles/` : variables de thème et styles globaux
+- `public/` : images, `robots.txt`, `sitemap.xml`

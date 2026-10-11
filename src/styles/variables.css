@@ -4,24 +4,11 @@
 
 .app.dark-mode {
   --site-bg-main: #020616;
-  --site-bg-gradient-end: #0B1D3A;
   --site-bg-header-footer: #000000;
 
   --text-primary: #FFFFFF;
   --text-body: #B0B5BD;
   --text-muted: #8A94A5;
-
-  --card-highlight: #1266D4;
-  --card-bg-inactive: #0B1D3A;
-  --card-bg-menu: #0B1D3A;
-  --modal-bg: #FFFFFF;
-  --modal-text-title: #0B1D3A;
-  --modal-text-body: #606773;
-
-  --modal-project: #1266D4;
-  --modal-project-details: #FFFFFF;
-
-  --badge-bg: #0B1D3A;
 
   --surface: #0B1D3A;
   --surface-2: #13305F;
@@ -32,23 +19,11 @@
 
 .app.light-mode {
   --site-bg-main: #FFFFFF;
-  --site-bg-gradient-end: #1E87FF;
   --site-bg-header-footer: #f7fafc;
 
   --text-primary: #0B1D3A;
   --text-body: #33476F;
   --text-muted: #4A4B50;
-
-  --card-highlight: #1266D4;
-  --card-bg-inactive: #e2e8f0;
-  --card-bg-menu: #1266D4;
-  --modal-bg: #0B1D3A;
-  --modal-text-title: #0B1D3A;
-  --modal-text-body: #000000;
-  --modal-project: #1266D4;
-  --modal-project-details: #FFFFFF;
-
-  --badge-bg: #1266D4;
 
   --surface: #F2F6FC;
   --surface-2: #DCE7F7;
@@ -61,12 +36,8 @@
    2. VARIABLES FIXES (ne changent jamais)
    ========================================================================== */
 :root {
-  --primary-blue: #33476F;
   --accent-blue: #1266D4;
-  --dark-blue: #0B1D3A;
-  --border-color: #1f2937;
   --text-white: #FFFFFF;
-  --bg-color-black: #020616;
 
   --font-title: 'Roboto Slab', serif;
   --font-body: 'Poppins', sans-serif;
