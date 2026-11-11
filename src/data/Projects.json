@@ -1,5 +1,45 @@
 [
   {
+    "id": 5,
+    "slug": "racketlive",
+    "title": "RacketLive",
+    "summary": "Site de tennis ATP et WTA pensé d’abord pour le mobile : calendrier des tournois, classements, fiches joueurs, favoris et recherche. Installable comme une application (PWA).",
+    "tags": ["React", "Vite", "React Router", "CSS", "Vitest", "PWA"],
+    "image": "./img/img-racketlive.webp",
+    "link": "https://github.com/Labrosse-Anthony/racketlive",
+    "siteUrl": "https://racketlive.vercel.app",
+    "type": "Projet personnel",
+    "role": "Conception, développement et mise en ligne",
+    "intro": "RacketLive est un site de suivi du tennis professionnel que j’ai construit de A à Z : calendrier des tournois, classements ATP et WTA, fiches de joueurs avec statistiques et résultats, favoris et recherche. Les données viennent d’une API de tennis et sont mises à jour automatiquement chaque jour.",
+    "objectives": [
+      { "title": "Un site utile au quotidien", "text": "Consulter le calendrier, les classements et les fiches joueurs simplement, sur téléphone comme sur ordinateur." },
+      { "title": "Une base de code propre", "text": "Une architecture claire en composants, hooks et couche de services, avec des tests automatiques." },
+      { "title": "Un projet de bout en bout", "text": "Des données récupérées par une API, converties, testées, mises en ligne et mises à jour sans intervention." }
+    ],
+    "achievements": [
+      { "title": "Un calendrier et des classements", "text": "Calendrier en liste ou en vue mensuelle (utilisable au clavier), filtres par circuit, catégorie, pays et mois, classements ATP et WTA." },
+      { "title": "Des fiches joueurs détaillées", "text": "Informations personnelles, statistiques de service et de retour, palmarès, bilan par surface, derniers résultats et prochains matchs." },
+      { "title": "Favoris, recherche et partage", "text": "Favoris enregistrés dans le navigateur, recherche de joueur depuis toutes les pages et bouton de partage avec aperçu de lien personnalisé." },
+      { "title": "Une application installable (PWA)", "text": "Le site s’installe sur le téléphone et reste consultable hors connexion grâce à un service worker." },
+      { "title": "Des données mises à jour chaque jour", "text": "Des scripts téléchargent et convertissent les données de l’API, et une tâche GitHub Actions les actualise automatiquement." },
+      { "title": "Des tests et une vérification à chaque envoi", "text": "61 tests automatiques (Vitest et Testing Library), dont le parcours des favoris et l’accessibilité, lancés avec le lint et le build à chaque envoi sur GitHub." }
+    ],
+    "resultsText": "Scores obtenus avec Lighthouse en version mobile :",
+    "scores": [
+      { "value": "100", "label": "Performances" },
+      { "value": "100", "label": "Accessibilité" },
+      { "value": "100", "label": "Bonnes pratiques" },
+      { "value": "100", "label": "SEO" }
+    ],
+    "challenge": "L’API gratuite limite le nombre de requêtes par jour. J’ai donc écrit des scripts qui comptent les requêtes, enregistrent les données dans des fichiers et ne redemandent que ce qui manque, puis je les ai automatisés avec GitHub Actions. En chemin, j’ai aussi dû diagnostiquer des erreurs réelles lors des mises à jour automatiques : une adresse d’API mal copiée, une clé refusée et des données incomplètes.",
+    "screenshots": [
+      { "src": "./img/racketlive-accueil.webp", "alt": "Page d’accueil de RacketLive sur mobile" },
+      { "src": "./img/racketlive-calendrier.webp", "alt": "Calendrier des tournois de RacketLive sur mobile" },
+      { "src": "./img/racketlive-classements.webp", "alt": "Classements ATP de RacketLive sur mobile" },
+      { "src": "./img/racketlive-favoris.webp", "alt": "Page des favoris de RacketLive sur mobile" }
+    ]
+  },
+  {
     "id": 1,
     "slug": "print-it",
     "title": "Print It !",
