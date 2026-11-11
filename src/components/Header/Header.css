@@ -27,6 +27,12 @@
   object-fit: contain;
 }
 
+/* Thème sombre : logo néon / thème clair : logo bleu sur fond clair */
+.app.light-mode .header__logo--sombre,
+.app.dark-mode .header__logo--clair {
+  display: none;
+}
+
 .header__name {
   font-family: var(--font-title);
   font-weight: 600;

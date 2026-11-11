@@ -30,10 +30,18 @@ const Header = ({ toggleTheme }) => {
     <header className="header">
       <div className="container header__container">
         <Link to="/#presentation" className="header__brand" onClick={closeMenu}>
+          {/* Deux versions du logo : le CSS affiche celle qui correspond au thème */}
           <img
             src={asset('img/logo-labrosse-anthony.webp')}
             alt=""
-            className="header__logo"
+            className="header__logo header__logo--sombre"
+            width="36"
+            height="36"
+          />
+          <img
+            src={asset('img/logo-labrosse-anthony-clair.webp')}
+            alt=""
+            className="header__logo header__logo--clair"
             width="36"
             height="36"
           />
